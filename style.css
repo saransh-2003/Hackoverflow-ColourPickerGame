@@ -1,0 +1,108 @@
+*{
+    margin:0;
+}
+#background_yellow {
+    background-color: rgb(247, 189, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.863);
+}
+#rgb {
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#head {
+    padding-top: 20px;
+}
+#colorgame {
+    padding-bottom: 20px;
+}
+
+#white {
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+}
+#newcolor, #easy, #hard {
+    border: none;
+    background-color: white;
+    color:rgba(238, 25, 25, 0.651);
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    outline-style: none;
+}
+#tryagain {
+    border: none;
+    background-color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width:300px;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: italic;
+}
+#newcolor:hover, #easy:hover, #hard:hover {
+    background-color: rgb(143, 19, 19);
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius: 7px;
+    color: aliceblue;
+
+}
+#boxes{
+    text-align: center;
+}
+#color1 , #color2, #color3, #color4, #color5, #color6{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 50px;
+    margin-right:15px;
+    margin-top: 30px;
+    border-radius: 15px;
+    height:120px;
+    width:120px;
+    transition: all 0.3s;
+    outline-style: none;
+}
+
+#color1{
+    background-color: rgb(16, 196, 16);
+}
+
+#color2 {
+    background-color: rgba(11, 15, 226, 0.76);
+}
+
+#color3 {
+    background-color: rgb(191, 128, 207);
+}
+
+#color4 {
+    background-color: rgb(63, 16, 235);
+}
+
+#color5 {
+    background-color: rgb(241, 160, 37);
+}
+
+#color6 {
+    background-color: rgb(245, 77, 189);
+}
+
+
+#color1:hover, #color2:hover, #color3:hover, #color4:hover, #color5:hover, #color6:hover {
+    filter: brightness(0.8);
+    border-style: solid;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    :focus { outline: none; }
+}

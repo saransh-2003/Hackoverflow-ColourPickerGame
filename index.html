@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Color Picker Game</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="background_yellow">
+        <h1 id="head">THE GREAT</h1>
+        <h1 id="rgb">rgb(<em id="r">r</em>,<em id="g">g</em>,<em id="b">b</em>)</h1>
+        <h1 id="colorgame">COLOR GAME</h1>
+    </div>
+    <div id="white">
+        <button id="newcolor" onclick="rgb()">NEW COLORS </button>
+        <button id="tryagain">Click NEW COLORS to begin</button>
+        <button id="easy" onclick="easy()">EASY </button>
+        <button id="hard" onclick="hard()">HARD </button>
+    </div>
+    <div id="boxes">
+        <button id ="color1" onclick="color_choice1()"></button>
+        <button id ="color2" onclick="color_choice2()"></button>
+        <button id ="color3" onclick="color_choice3()"></button>
+        <br>
+        <button id ="color4" onclick="color_choice4()"></button>
+        <button id ="color5" onclick="color_choice5()"></button>
+        <button id ="color6" onclick="color_choice6()"></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
